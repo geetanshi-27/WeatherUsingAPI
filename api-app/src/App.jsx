@@ -29,10 +29,10 @@ function App() {
 
   return (
     <>
-    <div className="flex flex-col items-center h-screen justify-center bg-[#fff9eb]">
-    <h1 className="text-3xl font-bold text-blue-400 italic my-6">Weather App 🌩️</h1>
+    <div className="flex flex-col items-center h-screen justify-center bg-[#d5e3ed]">
+    <h1 className="text-3xl font-bold text-[#404f59] italic my-6">Weather App 🌩️</h1>
     <form onSubmit={myapifetch} className="text-center">
-      <label className="italic text-yellow-500">enter city
+      <label className="italic text-[#28333b]">enter city
         <br></br>
         <input className="text-black border border-gray-400 rounded-md px-2"
           value={city}
