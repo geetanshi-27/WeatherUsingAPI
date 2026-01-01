@@ -27,7 +27,7 @@ function App() {
   return (
     <>
     
-    <h1>Hello React 👋</h1>
+    <h1>Weather App 🌩️</h1>
     <form>
       <label>enter city
         <input 
